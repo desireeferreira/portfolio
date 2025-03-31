@@ -42,7 +42,7 @@ nav ul li a{
     text-align: center;
     justify-content: center;
     max-width: 600px;   
-    border: #333 5px solid;
+    /* border: #333 5px solid; */
 }
 #inicio img{
     max-width: 80%;
@@ -50,7 +50,8 @@ nav ul li a{
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
-    border: white 10px solid;}
+    border: white 10px solid;
+}
 
 #inicio h1{
     /* display: inline-block; */
@@ -59,13 +60,14 @@ nav ul li a{
     /* align-items: center;
     justify-content: center; */
     white-space: nowrap;
-    border: white 5px solid;      
+    /* border: white 5px solid;       */
 }
 #inicio h2{
     font-size: 2rem;
     margin-right: 10px;
     text-align: center;
-    border: green 5px solid;}
+    /* border: green 5px solid; */
+}
 
 
 #inicio p{
@@ -73,7 +75,7 @@ nav ul li a{
     margin-right: 10px;
     text-align: center;
     white-space: nowrap;
-    border: yellow 5px solid;
+    /* border: yellow 5px solid; */
 }
 
 #sobre{
@@ -86,6 +88,29 @@ nav ul li a{
     /* border: #333 5px solid; */
     background-color: white;
     box-shadow: 10px 10px 20px #FA07A9;
+}
+
+#sobre p{
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    letter-spacing: 1.4px;
+   
+}
+#video-favorito {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 7, 172); */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 10px 10px 20px white; 
+    box-shadow: 10px 10px 20px #FA07A9; 
+    height: 65vh;
+    width: 100%;
+    padding: 20px;
 }
 #projetos{
     padding: 100px;
@@ -112,11 +137,26 @@ nav ul li a{
     }
 #contato{
     padding: 100px;
-    margin: 30px auto;    
+    margin: 60px auto;    
     align-items: center;
     text-align: center;
     justify-content: center;
     max-width: 600px;
+}
+
+#mapa{
+    padding: 30px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 30px white; 
+    border: 5px groove white;
+}
+
+#endereco{
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 #redes-sociais{  
     display: flex;
@@ -127,7 +167,7 @@ nav ul li a{
     max-width: 600px;  
     padding: 5px 0; 
     margin-left:360px;
-    border: blue 5px solid; 
+    /* border: blue 5px solid;  */
 }
 #redes-sociais a{
     display: flex;
@@ -140,7 +180,7 @@ nav ul li a{
     /* padding: 10%; */
     box-shadow: 10px 10px 10px black; 
     transition: transform 0.3s ease;
-    border: yellow 5px solid; 
+    /* border: yellow 5px solid;  */
 }
 .redes-sociais img{
     display: block;
@@ -160,6 +200,6 @@ footer{
     footer p{
         font-size: 20px;
         color: #333;        
-        border: black 5px solid; 
+        /* border: black 5px solid;  */
         background-color: #FA07A9;
     }
