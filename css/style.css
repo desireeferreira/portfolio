@@ -119,8 +119,9 @@ nav ul li a{
     text-align: center;
     justify-content: center;
     max-width: 600px;
-    border: #333 5px solid;
+    /* border: #333 5px solid; */
 }
+
 #capa {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
@@ -181,23 +182,23 @@ nav ul li a{
     /* padding: 10%; */
     box-shadow: 10px 10px 10px black; 
     transition: transform 0.3s ease;
-    border: yellow 5px solid; 
+    /* border: yellow 5px solid;  */
 }
 .redes-sociais img{
     display: block;
     height: auto;
     border-radius: 50%;
-    border: green 10px solid; }
+    /* border: green 10px solid; } */
     /* object-fit: cover;
     object-position: center;    */
-
+}
+ 
 footer{
     text-align: center;
     padding: 20px 0;
     height: 15px;
     width: 100%;    
-    margin: 0 auto;
-    
+    margin: 0 auto;    
     }
     footer p{
         font-size: 20px;
