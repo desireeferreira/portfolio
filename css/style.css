@@ -119,6 +119,7 @@ nav ul li a{
     text-align: center;
     justify-content: center;
     max-width: 600px;
+    border: #333 5px solid;
 }
 #capa {
         display: grid;
@@ -180,12 +181,13 @@ nav ul li a{
     /* padding: 10%; */
     box-shadow: 10px 10px 10px black; 
     transition: transform 0.3s ease;
-    /* border: yellow 5px solid;  */
+    border: yellow 5px solid; 
 }
 .redes-sociais img{
     display: block;
     height: auto;
-    border-radius: 50%;}
+    border-radius: 50%;
+    border: green 10px solid; }
     /* object-fit: cover;
     object-position: center;    */
 
